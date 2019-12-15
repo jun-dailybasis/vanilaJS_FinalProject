@@ -5,7 +5,7 @@ const IMG_NUMBER = 4;
 
 function paintImage(imgNumber){
     const image = new Image();
-    image.src = `/images/${imgNumber + 1}.jpg`
+    image.src = `https://jun-dailybasis.github.io/vanilaJS_FinalProject.io/images/${imgNumber + 1}.jpg`
     image.classList.add("bgImage");
     body.prepend(image);
 }
