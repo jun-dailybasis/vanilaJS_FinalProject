@@ -1,0 +1,83 @@
+body {
+    background-color: #2c3e50;
+    text-align: center;
+    margin-top: 300px;
+  }
+span{
+  color: black;
+}
+
+
+ #time{
+   font-size: 50px;
+    color: white;
+ }
+ .js-weather{
+   color: grey;
+ }
+  .bgImage{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn .5s linear;
+  }
+  input{
+    -webkit-appearance: none;
+    width: 20%;
+    border: 0;
+    font-family: inherit;
+    padding: 12px 0;
+    height: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid #C8CCD4;
+    background: none;
+    border-radius: 0;
+
+    color: violet;
+    transition: all .15s ease;
+  }
+.js-greeting{
+  font-size: 30px;
+}
+  @keyframes fadeIn{
+    from {
+      opacity:0;
+    }
+    to{
+      opacity: 1;
+    }
+    
+  }
+
+  .form,
+  .greetings {
+    display:none;
+  }
+  .showing
+  {
+    display:block;
+  }
+
+  button{
+    display:inline-block;
+    border-radius:0.12em;
+    text-decoration:none;
+    background: transparent;
+    color:red;
+    border-color: transparent;
+    text-align:center;
+    transition: all 0.2s;
+    }
+    button:hover{
+      color:#000000;
+      background-color:grey;
+    }
+    @media all and (max-width:30em){
+     button{
+      display:block;
+    }
+  }
